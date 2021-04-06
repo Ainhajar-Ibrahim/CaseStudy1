@@ -9,10 +9,10 @@ Element(String nom, String path){
 }
 public abstract void afficher();
 public abstract int getTaille();
-public String setNom(String nom) {
+public void setNom(String nom) {
 	this.Nom=nom;
 }
-public String setPath(String path) {
+public void setPath(String path) {
 	this.path=path;
 }
 }
