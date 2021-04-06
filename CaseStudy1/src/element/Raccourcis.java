@@ -6,7 +6,7 @@ public class Raccourcis extends Element {
 		super(e.Nom,path);
 		this.e=e;}
 	public void afficher() {
-		System.out.println(e.Nom+" est un fichier situé dans l'emplacement "+e.path+" et de taille "+e.getTaille()+".");
+		System.out.println("Ce fichier est le raccourcis de l'element "e.Nom+" situÃ© dans l'emplacement "+e.path+" ".");
 	}
 	public int getTaille() {
 		return 1;
